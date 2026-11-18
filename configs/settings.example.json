@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "capture": {
+    "platform": "xiaohongshu",
+    "provider": "spider_xhs",
+    "spider_source": "",
+    "spider_python": ""
+  },
+  "asr": {
+    "enabled": false,
+    "provider": "doubao",
+    "key_env": "DOUBAO_ASR_API_KEY",
+    "key_file": ""
+  },
+  "feishu": {
+    "enabled": false,
+    "target_file": ""
+  }
+}

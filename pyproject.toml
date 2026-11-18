@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creatorlens"
+version = "0.1.0a2"
+description = "Agent-assisted content research with local evidence and reports"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = {file = "LICENSE"}
+
+[project.scripts]
+creatorlens = "creatorlens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["creatorlens*"]
